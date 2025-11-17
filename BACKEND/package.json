@@ -1,0 +1,30 @@
+{
+  "name": "prueba-tecnica-1",
+  "version": "1.0.0",
+  "description": "Backend prueba tecnica 1",
+  "main": "app.js",
+  "type":"module",
+  "scripts": {
+    "start": "node app.js",
+    "dev":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yescarjim/PRUEBA-TECNICA-1.git"
+  },
+  "author": "Yesmy Carolina Jiménez Arias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yescarjim/PRUEBA-TECNICA-1/issues"
+  },
+  "homepage": "https://github.com/yescarjim/PRUEBA-TECNICA-1#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
